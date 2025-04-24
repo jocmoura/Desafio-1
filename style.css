@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(18, 18, 20, 1);
+}
+.container{
+    background-color: rgb(24, 21, 21);
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.coldlab{
+    padding: 15px;
+}
+.container  h1{
+    color:rgb(194, 105, 57) ;
+    font-size: 30px;
+}
+.container samp{
+    color: white;
+}
+
+input{
+    background-color: rgba(32, 32, 36, 1);
+    width: 67%;
+    height: 30px;
+    padding-left:15px ;
+    border-radius: 10px;
+    border: 1px solid rgba(32, 32, 36, 1);
+    margin-bottom: 15px;
+}
+input::placeholder{
+    color: darkgray;
+    
+}input:hover{
+    color: white;
+}
+
+/*Parte de cima feita.*/
+
+.container-conteudo{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.cards{
+    display: block;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(169, 169, 169, 0.204);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cards:hover{
+    border: 1px solid rgb(194, 105, 57);
+}
+.cont-coracao{
+    display: flex;
+    justify-content: space-between;
+}
+.container-conteudo .cards .laranja{
+    color: rgb(194, 105, 57);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.cards h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.cards p{
+    color:darkgray;
+}
+
+/*coração*/
+/* CSS */
+.coracao {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .coracao:hover{
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+  }
+  
